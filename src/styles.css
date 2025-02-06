@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+*,::after,::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#D8C4B6;
+    --bg-color:#F5EFE7;
+    --text-color:#213555;
+}
+body{
+    background-color: var(--main-color);
+    font-family: "Electrolize", serif;
+    color:#213555;  
+}
